@@ -111,14 +111,10 @@ form{
     height: 80px;
     width: 100%;
     margin-bottom: 80px;
+    
    
 }
 
-.title>h1{
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 36px;      
-}
 
 .oval {
     width: 30px;
@@ -247,6 +243,7 @@ input.cta-btn{
 .purchase>div>p>span>span{
     text-decoration: underline;
     width: 94px;
+   
 }
 
 
@@ -330,6 +327,10 @@ input.cta-btn{
         line-height: 19px;
         letter-spacing: -0.007999998517334461px;
         color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        text-decoration-color:#B9F5FF;
+        white-space: nowrap;
 }
 .quote>p{
 font-family: Lato;
