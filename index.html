@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wp-pusher-checkout</title>
+
+    <!-- css styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./assets/logo/wppusher-logo copy.svg " alt="" />
+        </div>
+
+        <div>
+          <ul class="nav-ul">
+            <li>Download</li>
+            <li>Learn More</li>
+            <li>Pricing</li>
+            <li>Help</li>
+          </ul>
+          <button>Account</button>
+        </div>
+      </nav>
+      <hr class="nav-hr" />
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <form action="">
+          <div class="title"><h1>Checkout</h1></div>
+          <hr />
+          <section id="basic">
+            <div class="info-box">
+              <div>
+                <div class="oval">1</div>
+                <h2>Your Basic Information</h2>
+              </div>
+
+              <div class="flex-name">
+                <div class="name">
+                  <label for="fname">First Name</label>
+                  <div class="input-div">
+                    <input
+                      type="text"
+                      id="fname"
+                      placeholder="Jane"
+                      name="first name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="name">
+                  <label for="lname">Last Name</label>
+                  <div class="input-div">
+                    <input
+                      type="text"
+                      id="lname"
+                      placeholder="Doe"
+                      name="last name"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <div class="input-div long">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="janedoe@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+
+          <section id="payment">
+            <div class="info-box">
+              <div>
+                <div class="oval">2</div>
+                <h2>Your Payment Information</h2>
+              </div>
+
+              <div>
+                <label for="credit">Credit Card</label>
+                <div class="input-div credit-card">
+                  <input
+                    type="text"
+                    id="credit"
+                    placeholder="Card Number"
+                    name="card number"
+                    required
+                  />
+                  <div class="card-extra">
+                    <input
+                      type="text"
+                      id="credit"
+                      placeholder="MM/YY"
+                      name="expiring date"
+                      required
+                    />
+                    <input
+                      type="text"
+                      id="credit"
+                      placeholder="CVC"
+                      name="CVC"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+
+          <div class="purchase">
+            <input class="cta-btn" type="button" value="Buy WP Pusher" />
+            <div>
+              <img src="./assets/logo/Maskq.svg" alt="" />
+              <p>
+                Need any help:
+                <span
+                  >Don't hesitate to
+                  <span class="contact">contact</span> support!</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="form-footer-icon">
+            <img src="./assets/logo/powered_by_stripe.svg" alt="" />
+          </div>
+        </form>
+
+        <div class="sidebar">
+          <h2>Freelancer</h2>
+
+          <div class="price">
+            <span>$</span>
+
+            <div><span>99</span><span>/year</span></div>
+          </div>
+          <p>Automatically renews after 1 year</p>
+
+          <ul>
+            <li>Use on 5 client sites</li>
+            <li>Private repositries</li>
+            <li>Email support</li>
+          </ul>
+          <p class="switch">
+            Need 20 client site? <br />
+            <a href="#">Switch to Agency Plan</a>
+          </p>
+          <hr />
+
+          <div class="quote">
+            <p>
+              FTP is horrible to deal with. <span>WP Pusher</span> solves that
+              issue, and the customer support is awesome!
+            </p>
+            <div>
+              <img src="./assets/images/Bitmapqpic.svg" alt="" />
+              <p>Kirk Beard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-text">
+        <p>© 2018 WP Pusher IVS · <span>Terms of Service</span></p>
+      </div>
+    </main>
+  </body>
+</html>
